@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url("background-image.jpg");
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+
+        .container label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .container input[type="text"],
+        .container input[type="tel"],
+        .container input[type="email"],
+        .container select {
+            width: 100%;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+
+        .container .gender input[type="radio"] {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .container .submit-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .container .submit-button input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .container .submit-button input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<h1>Cricket Registration Form</h1>
+<form action="" method="POST">
+    <input type="text" name="First_Name" placeholder="Enter First Name"><br><br>
+    <input type="text" name="Last_Name" placeholder="Enter Last Name"><br><br>
+    <input type="number" name="Mobile_Number" placeholder="Enter Mobile Number"><br><br>
+<input type="email" name="Email" placeholder="Enter Email_ID"><br><br>
+<input type="text" name="City" placeholder="Enter City"><br><br>
+<input type="number" name="Height" placeholder="Enter Height"><br><br>
+<input type="number" name="Weight" placeholder="Enter Weight"><br><br>
+<input type="text" name="Gender" placeholder="Enter Gender"><br><br>
+    <input type="submit" value="Submit">
